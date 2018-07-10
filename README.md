@@ -13,6 +13,11 @@ into a text file.  To use it:
 
 TO DO:
 
-- Make the scriot more robust -- eg if the title has parentheses in it, it'll mess up the parsing; check to make sure ot only grabs the highlights from one book (I banged out this script to take care of an immediate need)
+- Make the script more robust -- eg if the title has parentheses in it, it'll mess up the parsing; check to make sure ot only grabs the highlights from one book (I banged out this script to take care of an immediate need)
 - Save the book title and author at the top of the output file
-- Create a better UI
+- Create a better but simple UI
+- Fix it so Word will read it w/o asking what type of text it is
+
+## Future Scripts
+
+- Flask script that (optionally) walks you through how to download the clippings file, then lets you interactively choose from a list of all the books in the clippings file
