@@ -8,7 +8,8 @@ into a text file.  To use it:
 
 - connect your Kindle to a computer via a USB cable
 - download the My Clippings.txt to your computer into a folder containing the script
-- change the title and output name names 
+- change book_title to part of the title of the book whose highlights you want
+- change book_highlights_file to the file name where the highlights should be stored
 - run the script 
 
 TO DO:
