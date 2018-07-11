@@ -13,7 +13,7 @@ with open('My Clippings.txt', 'r', encoding='utf-8-sig') as f:
     highlights = contents.rsplit('==========')
 
 for highlight in highlights:
-    if book_title in highlight:          # Yes, this is a kludge (see below for why)
+    if book_title in highlight:          # Yes, this is a kludge
         # print('\n\n', highlight, '\n\n----------------------------------------\n')
 
         # Yes, I should use a regular expression to do this, but I kept getting stuck :-)    
